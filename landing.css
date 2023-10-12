@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Laheader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+nav{
+    /* border: 2px solid tomato; */
+    height: 50px;
+    background: rgb(2, 2, 78);
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.l{
+    background: white;
+    color: rgb(2, 2, 78);
+    margin: 0 5px 0 30px;
+    padding: 0 5px;
+}
+.linkholder{
+    /* border: 2px solid tomato; */
+    height: 30px;
+    width: 180px;
+    margin-right:30px ;
+}
+.linkholder ul{
+    display: flex;
+    justify-content: space-between;
+}
+.linkholder a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.linkholder li{
+    list-style: none;
+}
+
+ /* main body starts here  */
+
+ .firstSec {
+    /* border: 2px solid tomato; */
+    height: 300px;
+   background:linear-gradient(to right,   rgba(79, 30, 16, 0.4),rgba(30, 19, 17, 0.4)), url('./image/pexels-lukas-1352274.jpg') ;
+    /* background: url(./images/pexels-lukas-1352274.jpg) ; */
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0 0 30px;
+    margin-bottom: 20px;
+ }
+ .Welcome{
+   color: white;
+   font-size: 50px;
+ }
+ .offer{
+   color: white;
+   font-size: 20px;
+ }
+
+
+
+.laBody{
+    /* border: 2px solid tomato; */
+    min-height: 500px;
+    margin-top: 55px;
+}
+.first{
+    /* border: 2px solid rgb(108, 71, 255); */
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    /* border: 2px solid rgb(80, 255, 71); */
+    min-height: 250px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(2, 2, 78);
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+}
+.LaFoodWrit{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.Laimg{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+ /* main body ends here  */
+
+
+
+ /* footer starts here  */
+
+
+ footer{
+    /* border: 2px solid black; */
+    /* height: 400px; */
+    padding-top: 30px;
+    background: rgb(16, 16, 108);
+    margin: 30px 0;
+  }
+  .footersec{
+    /* border: 2px solid red; */
+    /* height: 300px; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 30px 15px 30px 15px; */
+  }
+  /* .footersec div{
+    border: 2px solid blue;
+    height: 100%;
+    width: 200px;
+    padding: 10px 0 10px 0;
+  } */
+  .footerline{
+    height: 1px;
+    background: rgba(202, 200, 200,0.4);
+    width: 80%;
+    margin: 20px auto;
+  }
+  .termsofservice{
+    /* border: 2px solid green; */
+    height: 40px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  
+  }
+  .lower{
+    /* background: blue; */
+  }
+  .footersec{
+    /* background: blue; */
+  }
+  .footerk{
+    background: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 5px 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+  }
+  .footerplug{
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+  }
+  .fofirslistgroup ul{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+  }
+  .fofirslistgroup li{
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  .footIcon img{
+    width: 150px;
+    margin-top: 5px;
+    /* margin-bottom: 2px; */
+    border-radius: 5px;
+  }
+  .footlogowritup{
+    color: white;
+    margin-top: 30px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-size: 16px; */
+  }
+  .footLogo{
+   font-size: 30px;
+   /* font-weight: bold; */
+   color: white;
+  }
+  .footlogospan{
+    /* border: 2px solid tomato; */
+    padding: 0 5px 0 5px;
+    background: white;
+    color: black;
+  }
+  
+
+ /* footer ends here  */
+

@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.DRbody{
+    background: black;
+    color: white;
+    /* border: 2px solid tomato; */
+    min-height: 1000px;
+    /* text-align: center; */
+    padding-top: 20px;
+    font-size: 20px;
+}
+.DrMenCOn{
+    /* border: 2px solid rgb(99, 71, 255); */
+    min-height: 500px;
+    margin-top: 50px;
+    color: white;
+}
+.DRyou{
+    font-size: 25px;
+}
+.Drline{
+    border: 2px solid white;
+    min-height: 3px;
+    width: 70%;
+    margin-bottom: 30px;
+}
+.DRlistcon{
+    /* border: 2px solid rgb(71, 255, 126); */
+    /* min-height: 500px; */
+    /* padding-left: 20px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    /* color: white; */
+}
+.DRlistancor{
+ text-decoration: none;
+ /* color: black; */
+ color: white;
+}

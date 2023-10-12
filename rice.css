@@ -1,0 +1,37 @@
+.ourMenu{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 25px;
+
+}
+.our{
+    color: blue;
+}
+.Menu{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.priceCon{
+    /* border: 2px solid tomato; */
+    height: 100px;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.starter{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.rice{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.viewIMG{
+    color: green;
+    font-size: 20px;
+}
+.One a{
+    text-decoration: none;
+}
